@@ -27,6 +27,7 @@ more...).
   - No API layer, no queue, no transform, no batch, no load...and no
     infrastructure maintenance costs
 - Out-of-the-box support for popular routers:
+  - [connected-router](https://github.com/supasate/connected-react-router)
   - [react-router-redux](https://github.com/rackt/react-router-redux) ✝: >=2.1.0 < 5
   - [redux-router](https://github.com/acdlite/redux-router): ^1.0.3
 - Support for all key Segment specs:
@@ -36,7 +37,7 @@ more...).
   - Group
   - Alias
 
-✝ Recommended router. You can also trigger page views manually.
+✝ To track automatically page events on location change use *connected-router* as redux-router deprecated. You can also trigger page views manually.
 
 
 ## Motivation
